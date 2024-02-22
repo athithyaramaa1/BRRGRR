@@ -140,7 +140,7 @@ function renderPrice() {
       totalPrice += ingredients[ingredient];
     }
   }
-  document.querySelector(".price-details").textContent = "INR " + totalPrice;
+  document.querySelector(".price-details").textContent = "$" + totalPrice;
 }
 
 // Initial render
